@@ -1,8 +1,11 @@
 package de.leuphana.swa.crs.database;
 
+import de.leuphana.swa.crs.database.entity.Customer;
+
 public class Test {
 
     public static void main(String[] args) {
-        System.out.println("Hello Database");
+        Customer customer = new Customer();
+        System.out.println(customer.getName());
     }
 }
