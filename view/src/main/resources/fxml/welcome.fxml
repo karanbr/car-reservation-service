@@ -16,11 +16,10 @@
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
         </padding>
 
-        <Label text="Primary View"/>
-        <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
-        <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
-        <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
-        <Button fx:id="primaryButton" text="Switch to Secondary View" onAction="#switchToSecondary"/>
+        <Label text="Welcome"/>
+        <Button fx:id="createButton" text="%createAccountButton" onAction="#createAccount"/>
+        <Button fx:id="loginButton" text="%loginButton" onAction="#login"/>
+        <Button fx:id="showCarsButton" text="%showCarsButton" onAction="#showCars"/>
 
     </VBox>
 
@@ -33,8 +32,8 @@
                   promptText="Choose Language" >
             <items>
                 <FXCollections fx:factory="observableArrayList">
-                    <String fx:value="Sparkonto" />
-                    <String fx:value="Girokonto" />
+                    <String fx:value="English" />
+                    <String fx:value="Deutsch" />
                 </FXCollections>
             </items>
         </ComboBox>
