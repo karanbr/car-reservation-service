@@ -1,3 +1,5 @@
 module customer {
-    exports de.leuphana.swa.crs.customer.behavior;
+    requires lombok;
+    exports de.leuphana.crs.customer.behavior;
+    exports de.leuphana.crs.customer.structure.model;
 }

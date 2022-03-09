@@ -4,10 +4,13 @@ module view {
     requires javafx.graphics;
     requires javafx.fxml;
     requires lombok;
+    requires customer;
+    requires controller;
 
-    opens de.leuphana.swa.crs.view to javafx.fxml;
-    exports de.leuphana.swa.crs.view;
 
-    opens de.leuphana.swa.crs.controller to javafx.fxml;
-    exports de.leuphana.swa.crs.controller;
+    opens de.leuphana.crs.view to javafx.fxml;
+    exports de.leuphana.crs.view;
+
+    opens de.leuphana.crs.view.controller to javafx.fxml;
+    exports de.leuphana.crs.view.controller;
 }

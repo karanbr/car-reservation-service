@@ -9,7 +9,7 @@
 <?import javafx.collections.FXCollections?>
 <?import java.lang.String?>
 <VBox spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="de.leuphana.swa.crs.controller.WelcomeController">
+      fx:controller="de.leuphana.crs.view.controller.WelcomeController">
 
     <VBox alignment="TOP_CENTER" spacing="20">
         <padding>
