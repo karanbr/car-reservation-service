@@ -24,6 +24,6 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public void createDocument(Booking booking) {
-
+        BookingPdf.createPdf(booking);
     }
 }

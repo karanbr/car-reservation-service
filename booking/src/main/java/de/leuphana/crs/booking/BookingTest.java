@@ -12,7 +12,7 @@ import java.util.List;
 
 public class BookingTest {
 
-    BookingService bookingService = new BookingServiceImpl();
+
 
     public static void main(String[] args) {
 //        System.out.println(new Head("Peter", "Hamburg", "peter@gmail.com").toString());
@@ -39,5 +39,8 @@ public class BookingTest {
                 .build();
 
         System.out.println(booking.toString());
+
+        BookingService bookingService = new BookingServiceImpl();
+        bookingService.createDocument(booking);
     }
 }
