@@ -4,7 +4,10 @@ module view {
     requires javafx.graphics;
     requires javafx.fxml;
     requires lombok;
+
     requires customer;
+    requires booking;
+    requires resource;
     requires controller;
 
 
